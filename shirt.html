@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirt Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="cart.js"></script>
+</head>
+<style>
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    float: right;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.shirt {
+    margin: 20px;
+    text-align: center;
+
+}
+
+.shirt img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    transform: scale(1.1);
+}
+
+.shirt h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.shirt p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.shirt button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 9px 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.shirt:hover{
+    color:blue;
+}
+.na a:hover{
+
+    background-color:whitesmoke;
+    color: black;
+}
+form.example button:hover {
+  background: #081b29;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+</style>
+<body>
+    
+    <script>
+        cart()
+    </script>
+    <header>
+    
+        <img  src="picture/Premium Vector _ Always be brave typography design for print ready t shirts premium vector (1).jpeg" width="150px" style="float: left;" >
+        <div>
+        <h1 style="font-size:xxx-large;">TrendyThreads</h1>
+        </div>
+        <nav class="na">
+            <ul>
+                <div>
+                <form class="example" action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    
+                  </form>
+                </div>
+                <li><a href="#"><i class="fa fa-shopping-cart" id="car"></i>cart</a></li>
+                <li><a href="#"></i>Shop</a></li>
+                <li><a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+                <li><a href="#"><i class="fa fa-fw fa-home"></i>Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="shirt">
+            <img src="../picture/tshirt1.jpeg" alt="Shirt 1">
+            <h2>Multi Colour T-Shirt</h2>
+            <p>$20</p>
+            <button onclick="cart()">Add to Cart</button>
+        </div>
+
+        <section class="shirt">
+            <img src="../picture/tshirt2.jpeg" alt="Shirt 2">
+            <h2>white T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="/picture/beer tshirt.jpeg" alt="Shirt 2">
+            <h2>Beer Is Calling T-Shirt LT</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt3.jpeg" alt="Shirt 2">
+            <h2>Deer Blue T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt4.jpeg" alt="Shirt 2">
+            <h2>Go Your Own way T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt5.jpeg" alt="Shirt 2">
+            <h2>Golden Black T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt6.jpeg" alt="Shirt 2">
+            <h2>Birds T-Shirt </h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt7.jpeg" alt="Shirt 2">
+            <h2>Feather T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt8.jpeg" alt="Shirt 2">
+            <h2>Cross T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt9.jpeg" alt="Shirt 2">
+            <h2>Tree Print T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/plan tshirt.jpeg" alt="Shirt 2">
+            <h2>Paper Plane T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt10.jpeg" alt="Shirt 2">
+            <h2>Dragon T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt11.jpeg" alt="Shirt 2">
+            <h2>Black Checked Hoodie</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt12.jpeg" alt="Shirt 2">
+            <h2>Ahegao Hoodie </h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt13.jpeg" alt="Shirt 2">
+            <h2>Long-sleeved T-shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/tshirt14.jpeg" alt="Shirt 2">
+            <h2>Jacket </h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/sweat.jpeg" alt="Shirt 2">
+            <h2>Sweat T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        <section class="shirt">
+            <img src="picture/winter.jpeg" alt="Shirt 2">
+            <h2>Winter sweat T-Shirt</h2>
+            <p>$25</p>
+            <button>Add to Cart</button>
+        </section>
+        
+        <section class="contact" id="contact" >
+            <h3 class="heading" style="text-align: center;">Contact <span>Me</span><span class="animate scroll" style="--i:1;"></span></h3>
+    
+            <form action="https://api.web3forms.com/submit" method="post">
+                    <input type="hidden" name="access_key" value="ebdb942b-e0f0-4d0f-b181-f8bb9c4c516c">
+              
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" placeholder="Name" name="Name" required>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Email"  name="Email" required>
+                        <span class="focus"></span>
+                    </div>
+    
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="number" placeholder="Mobile Number"  name="Mobile Number" required>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Email Subject"  name="Email Subject" required>
+                        <span class="focus"></span>
+                    </div>
+    
+                    <span class="animate scroll" style="--i:5;"></span>
+                </div>
+    
+                <div class="textarea-field">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"  name="Your message" required></textarea>
+                    <span class="focus"></span>
+    
+                    <span class="animate scroll" style="--i:7;"></span>
+                </div>
+    
+                <div class="btn-box btns">
+                    <button type="submit" class="btn">Submit</button>
+    
+                    <span class="animate scroll" style="--i:9;"></span>
+                </div>
+               
+            </form>
+        </section>
+    
+
+
+     
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Shirt Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
